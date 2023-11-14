@@ -1,9 +1,9 @@
 import favicon from '../asset/favicon.ico';
-import previewImage from '../asset/preview.jpg';
+import previewImage from '../asset/pangHS.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'RESUME-NEXTJS Sample Page';
-const description = 'This is a simple web resume sample.';
+const title = "pangorithm's RESUME";
+const description = "This is a pangorithm's resume.";
 
 export const _global: IGlobal.Payload = {
   favicon,

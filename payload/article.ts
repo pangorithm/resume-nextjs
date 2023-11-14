@@ -5,12 +5,9 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: 'Recipient of the "Open Source Hall of Fame" award in 2015.',
-      href: '#',
-    },
-    {
-      content: 'Featured on the cover of "Linux Monthly" as the face of Linux (2016, 2018, 2020).',
-      href: '#',
+      content: '네이버 클라우드 캠프 7기 수료 인터뷰',
+      href:
+        'https://www.bitcamp.co.kr/blog/90?sca=%EC%88%98%EB%A3%8C%EC%83%9D+%EC%9D%B8%ED%84%B0%EB%B7%B0',
     },
   ],
 };

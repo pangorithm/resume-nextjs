@@ -5,135 +5,109 @@ const programmingLanguages: ISkill.Skill = {
   items: [
     {
       title: 'C',
-      level: 3,
-    },
-    {
-      title: 'Shell Scripting',
-      level: 3,
-    },
-    {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
-    },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
       level: 1,
+    },
+    {
+      title: 'JavaScript',
+      level: 3,
+    },
+    {
+      title: 'TypeScript',
+      level: 1,
+    },
+    {
+      title: 'Java',
+      level: 3,
     },
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const frontendDevelopment: ISkill.Skill = {
+  category: 'Frontend FameWorks & Libraries',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
-    },
-    {
-      title: 'GNU Debugger',
-      level: 3,
-    },
-    {
-      title: 'Memory Management',
+      title: 'React',
       level: 2,
     },
     {
-      title: 'System Call Interface',
+      title: 'Redux',
+      level: 2,
+    },
+    {
+      title: 'JSP',
+      level: 1,
+    },
+    {
+      title: 'Thymeleaf',
       level: 2,
     },
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const backendDevelopment: ISkill.Skill = {
+  category: 'Backend FameWorks & Libraries',
   items: [
     {
-      title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
+      title: 'Node.js',
       level: 2,
     },
     {
-      title: 'VirtualBox',
+      title: 'Express.js',
       level: 2,
     },
     {
-      title: 'VMware ESXi',
-      level: 1,
+      title: 'Koa.js',
+      level: 2,
+    },
+    {
+      title: 'Socket.io',
+      level: 2,
+    },
+    {
+      title: 'Spring',
+      level: 2,
     },
   ],
 };
 
-const automation: ISkill.Skill = {
-  category: 'Automation',
+const infra: ISkill.Skill = {
+  category: 'Infrastructure & Databases',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
+      title: 'NCP',
     },
     {
-      title: 'Puppet',
-      level: 3,
+      title: 'MySQL',
     },
     {
-      title: 'Chef',
-      level: 2,
+      title: 'MongoDB',
     },
     {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
-      level: 1,
-    },
-    {
-      title: 'Infrastructure as Code',
-      level: 1,
+      title: 'Redis',
     },
   ],
 };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+const tools: ISkill.Skill = {
+  category: 'Tools & IDEs',
   items: [
     {
-      title: 'iptables',
-      level: 3,
+      title: 'Vim',
     },
     {
-      title: 'OpenSSH',
-      level: 3,
+      title: 'VS Code',
     },
     {
-      title: 'OpenSSL',
-      level: 2,
+      title: 'Eclipse',
     },
     {
-      title: 'NACLs',
-      level: 2,
+      title: 'IDEA',
     },
     {
-      title: 'VPN Technologies',
-      level: 2,
+      title: 'Git',
     },
     {
-      title: 'Intrusion Detection',
-      level: 1,
+      title: 'Github',
     },
   ],
 };
@@ -142,36 +116,26 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Climbing',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Cycling',
     },
     {
-      title: 'Table Tennis',
+      title: 'Algorithm Problem Solving',
     },
     {
-      title: 'Guitar Playing',
+      title: 'DIY Crafting',
     },
     {
       title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
+  skills: [programmingLanguages, frontendDevelopment, backendDevelopment, infra, tools, misc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

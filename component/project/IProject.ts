@@ -42,5 +42,12 @@ export declare namespace IProject {
      * ### 프로젝트 설명
      */
     descriptions: IRow.Description[];
+
+    /**
+     * ### 하이퍼 링크
+     *
+     * @description 해당 필드가 not null 이면 title 전체가 `<a href>` 태그로 감싸진다.
+     */
+    link?: string;
   }
 }
