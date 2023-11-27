@@ -27,10 +27,18 @@ const frontendDevelopment: ISkill.Skill = {
   items: [
     {
       title: 'React',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Redux',
+      level: 2,
+    },
+    {
+      title: 'Redux-saga',
+      level: 2,
+    },
+    {
+      title: 'Recoil',
       level: 2,
     },
     {
@@ -53,19 +61,19 @@ const backendDevelopment: ISkill.Skill = {
     },
     {
       title: 'Express.js',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Koa.js',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Socket.io',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Spring',
-      level: 2,
+      level: 3,
     },
   ],
 };

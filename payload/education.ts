@@ -6,9 +6,9 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '독학학위제',
-      subTitle: '컴퓨터 공학',
+      subTitle: '컴퓨터 공학 학사 졸업',
       startedAt: '2019-03',
-      // endedAt: '2023-11',
+      endedAt: '2024-02',
     },
     {
       title: '절강대학교(浙江大学)',

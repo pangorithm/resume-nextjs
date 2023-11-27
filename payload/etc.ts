@@ -6,7 +6,7 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: '네이버 클라우드 AIaaS 개발자 과정',
-      subTitle: '모범상 수상',
+      subTitle: '모범상, 개근상 수상',
       startedAt: '2023-04',
       endedAt: '2023-10',
     },
