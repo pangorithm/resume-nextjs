@@ -39,7 +39,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'React, Redux, Express, Socket.io, MySQL, MongoDB, Redis 등을 사용하여 서비스 개발',
+            'React, Redux, Express, Socket.io, Spring, MySQL, MongoDB, Redis, NaverCloudPlatform 등을 사용하여 서비스 개발',
         },
         {
           content:
