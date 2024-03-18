@@ -5,6 +5,12 @@ const education: IEducation.Payload = {
 
   list: [
     {
+      title: '네이버 클라우드 AIaaS 개발자 과정',
+      subTitle: '모범상, 개근상 수상',
+      startedAt: '2023-04',
+      endedAt: '2023-10',
+    },
+    {
       title: '독학학위제',
       subTitle: '컴퓨터 공학 학사 졸업',
       startedAt: '2019-03',

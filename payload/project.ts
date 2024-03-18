@@ -3,30 +3,30 @@ import { IProject } from '../component/project/IProject';
 const project: IProject.Payload = {
   disable: false,
   list: [
-    {
-      title: '오픈마켓 서비스 플랫폼 리팩토링',
-      startedAt: '2023-11',
-      where: '네이버클라우드 AIaaS 개발자 과정 7기 수료생 모임',
-      descriptions: [
-        // {
-        //   content:
-        //     'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
-        // },
-        // {
-        //   content:
-        //     'Achieved significant improvements in system performance and resource management.',
-        //   weight: 'MEDIUM',
-        //   descriptions: [
-        //     { content: '30% improvement in system resource efficiency' },
-        //     { content: 'Job Scheduler Refactor and Optimization' },
-        //   ],
-        // },
-        {
-          content: '프로젝트 깃허브',
-          href: 'https://github.com/orgs/NC7-BleuAuction/repositories',
-        },
-      ],
-    },
+    // {
+    //   title: '오픈마켓 서비스 플랫폼 리팩토링',
+    //   startedAt: '2023-11',
+    //   where: '네이버클라우드 AIaaS 개발자 과정 7기 수료생 모임',
+    //   descriptions: [
+    //     // {
+    //     //   content:
+    //     //     'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+    //     // },
+    //     // {
+    //     //   content:
+    //     //     'Achieved significant improvements in system performance and resource management.',
+    //     //   weight: 'MEDIUM',
+    //     //   descriptions: [
+    //     //     { content: '30% improvement in system resource efficiency' },
+    //     //     { content: 'Job Scheduler Refactor and Optimization' },
+    //     //   ],
+    //     // },
+    //     {
+    //       content: '프로젝트 깃허브',
+    //       href: 'https://github.com/orgs/NC7-BleuAuction/repositories',
+    //     },
+    //   ],
+    // },
     {
       title: 'SNS 서비스 플랫폼 개발',
       startedAt: '2023-10',

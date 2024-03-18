@@ -5,10 +5,15 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '네이버 클라우드 AIaaS 개발자 과정',
-      subTitle: '모범상, 개근상 수상',
-      startedAt: '2023-04',
-      endedAt: '2023-10',
+      title: 'NAVER Cloud Platform Certified',
+      subTitle: 'Expert 등급',
+      startedAt: '2023-12',
+    },
+    {
+      title: '모던 리액트 Deep Dive 서포터즈',
+      subTitle: '위키북스',
+      startedAt: '2023-11',
+      endedAt: '2023-11',
     },
     {
       title: '육군 병장 만기 전역',

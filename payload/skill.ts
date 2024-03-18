@@ -13,7 +13,7 @@ const programmingLanguages: ISkill.Skill = {
     },
     {
       title: 'TypeScript',
-      level: 1,
+      level: 2,
     },
     {
       title: 'Java',
@@ -27,7 +27,7 @@ const frontendDevelopment: ISkill.Skill = {
   items: [
     {
       title: 'React',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Redux',
@@ -39,7 +39,7 @@ const frontendDevelopment: ISkill.Skill = {
     },
     {
       title: 'Recoil',
-      level: 2,
+      level: 1,
     },
     {
       title: 'JSP',
@@ -47,7 +47,7 @@ const frontendDevelopment: ISkill.Skill = {
     },
     {
       title: 'Thymeleaf',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -68,12 +68,16 @@ const backendDevelopment: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Nest.js',
+      level: 1,
+    },
+    {
       title: 'Socket.io',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Spring',
-      level: 3,
+      level: 2,
     },
   ],
 };
@@ -86,6 +90,12 @@ const infra: ISkill.Skill = {
     },
     {
       title: 'MySQL',
+    },
+    {
+      title: 'MariaDB',
+    },
+    {
+      title: 'GaleraCluster',
     },
     {
       title: 'MongoDB',
@@ -110,6 +120,9 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'IDEA',
+    },
+    {
+      title: 'WSL',
     },
     {
       title: 'Git',
