@@ -4,7 +4,7 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
+      title: 'Rust',
       level: 1,
     },
     {
@@ -46,7 +46,7 @@ const frontendDevelopment: ISkill.Skill = {
       level: 1,
     },
     {
-      title: 'Thymeleaf',
+      title: 'Tauri',
       level: 1,
     },
   ],
@@ -56,8 +56,12 @@ const backendDevelopment: ISkill.Skill = {
   category: 'Backend FameWorks & Libraries',
   items: [
     {
+      title: 'bun.js',
+      level: 1,
+    },
+    {
       title: 'Node.js',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Express.js',
@@ -69,7 +73,7 @@ const backendDevelopment: ISkill.Skill = {
     },
     {
       title: 'Nest.js',
-      level: 1,
+      level: 3,
     },
     {
       title: 'Socket.io',
@@ -83,10 +87,19 @@ const backendDevelopment: ISkill.Skill = {
 };
 
 const infra: ISkill.Skill = {
-  category: 'Infrastructure & Databases',
+  category: 'Infrastructure',
   items: [
     {
       title: 'NCP',
+    },
+    {
+      title: 'Nginx',
+    },
+    {
+      title: 'Haproxy',
+    },
+    {
+      title: 'ProxySQL',
     },
     {
       title: 'MySQL',
@@ -103,6 +116,12 @@ const infra: ISkill.Skill = {
     {
       title: 'Redis',
     },
+    {
+      title: 'Consul',
+    },
+    {
+      title: 'CoreDns',
+    },
   ],
 };
 
@@ -114,9 +133,6 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'VS Code',
-    },
-    {
-      title: 'Eclipse',
     },
     {
       title: 'IDEA',

@@ -3,6 +3,19 @@ import { IProject } from '../component/project/IProject';
 const project: IProject.Payload = {
   disable: false,
   list: [
+    {
+      title: 'space order',
+      startedAt: '2025-02',
+      where: '개인 프로젝트',
+      descriptions: [
+        {
+          content: '크로스 플랫폼 서비스 애플리케이션',
+        },
+        {
+          content: 'tauri, rust, javascript',
+        },
+      ],
+    },
     // {
     //   title: '오픈마켓 서비스 플랫폼 리팩토링',
     //   startedAt: '2023-11',
