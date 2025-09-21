@@ -4,15 +4,52 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'space order',
-      startedAt: '2025-02',
+      title: '별무리(가제)',
+      startedAt: '2025-09',
       where: '개인 프로젝트',
       descriptions: [
         {
-          content: '크로스 플랫폼 서비스 애플리케이션',
+          content: '웹뷰 기반 크로스 플랫폼 소모임 관리 애플리케이션',
         },
         {
-          content: 'tauri, rust, javascript',
+          content: '아키텍처 및 기술 스택 설계 단계',
+        },
+        {
+          content: 'Tauri, JavaScript, Solid, Rust, Axum, Tonic',
+        },
+      ],
+    },
+    {
+      title: 'MineCraft-BDS 개인 서버 구축',
+      startedAt: '2025-06',
+      endedAt: '2025-08',
+      where: '개인 프로젝트',
+      descriptions: [
+        {
+          content: 'MineCraft Bedrock Edition 개인 서버 구축',
+        },
+        {
+          content:
+            'child-process로 BDS 서버 구동기 실행 및 서버 명령 전송, bedrock-protocol을 통한 이벤트 패킷 처리(파싱, 프록싱, 변조), 이벤트 처리를 위한 gRPC 서버',
+        },
+        {
+          content:
+            'Bedrock Dedicated Server, JavaScript, bedrock-protocol, Rust, tokio-tungstenite, tonic',
+        },
+        {
+          content:
+            '모장의 버전 업데이트 주기에 맞춘 업데이트 불가로 인한 운영 중단, 추후 서버 구동기 버전 자동 업데이트 구축 후 재운영 예정',
+        },
+      ],
+    },
+    {
+      title: '홈 AI 서버 구축',
+      startedAt: '2025-03',
+      endedAt: '2025-03',
+      where: '개인 프로젝트',
+      descriptions: [
+        {
+          content: 'open-webui & Ollama 기반 개인 AI(DeepSeek) 서버 구축',
         },
       ],
     },

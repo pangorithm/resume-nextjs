@@ -5,7 +5,7 @@ const programmingLanguages: ISkill.Skill = {
   items: [
     {
       title: 'Rust',
-      level: 1,
+      level: 2,
     },
     {
       title: 'JavaScript',
@@ -17,7 +17,7 @@ const programmingLanguages: ISkill.Skill = {
     },
     {
       title: 'Java',
-      level: 3,
+      level: 2,
     },
   ],
 };
@@ -30,15 +30,11 @@ const frontendDevelopment: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Redux',
-      level: 2,
-    },
-    {
-      title: 'Redux-saga',
-      level: 2,
-    },
-    {
       title: 'Recoil',
+      level: 1,
+    },
+    {
+      title: 'Solid',
       level: 1,
     },
     {
@@ -83,12 +79,23 @@ const backendDevelopment: ISkill.Skill = {
       title: 'Spring',
       level: 2,
     },
+    {
+      title: 'Axum',
+      level: 2,
+    },
+    {
+      title: 'Tonic',
+      level: 2,
+    },
   ],
 };
 
 const infra: ISkill.Skill = {
   category: 'Infrastructure',
   items: [
+    {
+      title: 'Linux(RedHat)',
+    },
     {
       title: 'NCP',
     },
@@ -102,25 +109,25 @@ const infra: ISkill.Skill = {
       title: 'ProxySQL',
     },
     {
-      title: 'MySQL',
-    },
-    {
       title: 'MariaDB',
     },
     {
       title: 'GaleraCluster',
     },
     {
-      title: 'MongoDB',
+      title: 'postgreSQL',
     },
     {
       title: 'Redis',
     },
     {
-      title: 'Consul',
+      title: 'Podman',
     },
     {
-      title: 'CoreDns',
+      title: 'Grafana',
+    },
+    {
+      title: 'Prometheus',
     },
   ],
 };
@@ -133,9 +140,6 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'VS Code',
-    },
-    {
-      title: 'IDEA',
     },
     {
       title: 'WSL',
@@ -152,6 +156,9 @@ const tools: ISkill.Skill = {
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
+    {
+      title: 'Running',
+    },
     {
       title: 'Climbing',
     },
