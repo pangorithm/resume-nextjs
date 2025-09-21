@@ -1,5 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faBlogger, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram, faBlogger, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -29,14 +30,14 @@ const profile: IProfile.Payload = {
       link: 'https://github.com/pangorithm',
       icon: faGithub,
     },
-    {
-      link: 'https://dewtide.tistory.com/',
-      icon: faBlogger,
-    },
-    {
-      link: 'https://www.instagram.com/pangorithm',
-      icon: faInstagram,
-    },
+    // {
+    //   link: 'https://dewtide.tistory.com/',
+    //   icon: faBlogger,
+    // },
+    // {
+    //   link: 'https://www.instagram.com/pangorithm',
+    //   icon: faInstagram,
+    // },
   ],
   notice: {
     title: '이메일로 연락 부탁드립니다.',

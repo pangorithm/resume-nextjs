@@ -19,6 +19,10 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Java',
       level: 2,
     },
+    {
+      title: 'Go',
+      level: 1,
+    },
   ],
 };
 
